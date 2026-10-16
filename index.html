@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DreamCorp — Type one sentence. Wake up to a company.</title>
+<meta name="description" content="DreamCorp turns one sentence about a business idea into a running online company, built and operated by AI agents. Free to start. Interactive demo.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M21 2a14 14 0 1 0 10 24A16 16 0 0 1 21 2z' fill='%236366f1'/%3E%3Cpath d='M24 3l1 2.6 2.6 1-2.6 1-1 2.6-1-2.6-2.6-1 2.6-1z' fill='%2367e8f9'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#app">Skip to content</a>
+<div class="demo-badge" role="note" aria-label="Demo notice">Demo &middot; agents are simulated locally</div>
+
+<header class="site-nav">
+  <a class="brand" href="#/" aria-label="DreamCorp home">
+    <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+      <defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#818cf8"/><stop offset="1" stop-color="#22d3ee"/>
+      </linearGradient></defs>
+      <path d="M21 2a14 14 0 1 0 10 24A16 16 0 0 1 21 2z" fill="url(#lg)"/>
+      <path d="M24 3l1 2.6 2.6 1-2.6 1-1 2.6-1-2.6-2.6-1 2.6-1z" fill="#67e8f9"/>
+    </svg>
+    <span>DreamCorp</span>
+  </a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="#/" data-scroll="how">How it works</a>
+    <a href="#/" data-scroll="workforce">AI workforce</a>
+    <a href="#/" data-scroll="pricing">Pricing</a>
+    <a href="#/" data-scroll="faq">FAQ</a>
+  </nav>
+  <a class="btn btn-primary btn-sm" href="#/new">Start your company</a>
+</header>
+
+<main id="app">
+  <!-- Static landing content: readable with JavaScript disabled.
+       The app script re-renders this area for interactive routes. -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Autonomous AI companies</p>
+      <h1>Type one sentence.<br><span class="grad-text">Wake up to a company.</span></h1>
+      <p class="subhead">Describe the business you wish existed. DreamCorp&rsquo;s AI workforce designs it, builds it, and runs it &mdash; while you get on with your day.</p>
+      <form class="idea-form" action="#/new" method="get">
+        <label class="visually-hidden" for="hero-idea-static">Describe the business you wish existed</label>
+        <input id="hero-idea-static" name="idea" type="text" placeholder="Describe the business you wish existed&hellip;" autocomplete="off">
+        <button class="btn btn-primary" type="submit">Start building</button>
+      </form>
+      <p class="microcopy">Free to start &middot; no credit card &middot; demo runs entirely in your browser</p>
+    </div>
+  </section>
+
+  <section class="strip stats-strip" aria-label="Demo statistics">
+    <div class="stat"><strong>12,408</strong><span>businesses started</span></div>
+    <div class="stat"><strong>96,120</strong><span>agent cycles today</span></div>
+    <div class="stat"><strong>$1.4M</strong><span>revenue earned by demo companies</span></div>
+    <p class="demo-note">Illustrative demo figures</p>
+  </section>
+
+  <section id="how" class="section">
+    <h2>How it works</h2>
+    <div class="cards-3">
+      <article class="card"><div class="step-num">1</div><h3>Say the idea</h3><p>Type one sentence. A founder agent interviews you for sixty seconds to sharpen the model, the customer, and the price.</p></article>
+      <article class="card"><div class="step-num">2</div><h3>Agents build it</h3><p>Architect, designer, engineer, and marketer agents spin up your site, your offer, and your launch pages &mdash; in minutes.</p></article>
+      <article class="card"><div class="step-num">3</div><h3>You steer by chat</h3><p>Your CEO agent prospects customers, sends emails, and reports back. You approve direction; the workforce does the work.</p></article>
+    </div>
+  </section>
+
+  <section id="workforce" class="section">
+    <h2>Meet your AI workforce</h2>
+    <div class="cards-3">
+      <article class="card"><h3>CEO Agent</h3><p>Sets priorities, reviews the numbers, and keeps every other agent pointed at revenue.</p></article>
+      <article class="card"><h3>Builder</h3><p>Ships your website, checkout, and product pages &mdash; then keeps improving them.</p></article>
+      <article class="card"><h3>Designer</h3><p>Crafts your brand, layouts, and visuals so the company looks established on day one.</p></article>
+      <article class="card"><h3>Marketer</h3><p>Writes launch content, tests landing page variants, and grows your audience.</p></article>
+      <article class="card"><h3>Sales Rep</h3><p>Finds prospects, drafts outreach, and follows up until they reply or opt out.</p></article>
+      <article class="card"><h3>Support</h3><p>Answers customer questions instantly, day or night, in your company&rsquo;s voice.</p></article>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Wall of dreams</h2>
+    <p class="demo-note">Illustrative examples, not real customers.</p>
+    <div class="cards-3">
+      <article class="card quote"><p>&ldquo;I typed a sentence about a meal-planning app before bed. By morning there was a landing page and twelve signups.&rdquo;</p><cite>&mdash; Priya, demo founder</cite></article>
+      <article class="card quote"><p>&ldquo;The sales agent booked my first three calls while I was at my day job. I just showed up.&rdquo;</p><cite>&mdash; Marcus, demo founder</cite></article>
+      <article class="card quote"><p>&ldquo;It feels like hiring a six-person team that never sleeps and never invoices me.&rdquo;</p><cite>&mdash; Lena, demo founder</cite></article>
+    </div>
+  </section>
+
+  <section id="pricing" class="section">
+    <h2>Free to start</h2>
+    <div class="pricing card">
+      <p class="price">$0</p>
+      <p>Start your company, meet your workforce, and watch your demo dashboard come alive &mdash; free, right in your browser.</p>
+      <a class="btn btn-primary" href="#/new">Found your company</a>
+    </div>
+  </section>
+
+  <section id="faq" class="section">
+    <h2>Questions</h2>
+    <details class="faq"><summary>Is this real or a demo?</summary><p>This page is an interactive demo. The agents, revenue, and activity are simulated locally in your browser &mdash; nothing leaves your device.</p></details>
+    <details class="faq"><summary>Do I need to know how to code?</summary><p>No. You describe the business in plain language; the agents handle design, building, and operations.</p></details>
+    <details class="faq"><summary>What does it cost?</summary><p>Starting is free. This demo costs nothing and needs no account.</p></details>
+    <details class="faq"><summary>Where does my data go?</summary><p>Nowhere. Your company, stats, and chat history are stored only in your browser&rsquo;s local storage.</p></details>
+    <details class="faq"><summary>Can I reset the demo?</summary><p>Yes &mdash; open your company dashboard and use the &ldquo;Reset demo&rdquo; button to start over.</p></details>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p><strong>DreamCorp</strong> &middot; an interactive demo of autonomous AI companies</p>
+  <p class="microcopy">All figures, testimonials, and agent activity on this page are simulated. MIT licensed.</p>
+</footer>
+
+<noscript>
+  <div class="noscript-note">
+    <p><strong>JavaScript is disabled.</strong> You&rsquo;re reading the static version of DreamCorp. The founding wizard and live dashboard need JavaScript to run.</p>
+  </div>
+</noscript>
+
+<script src="app.js"></script>
+</body>
+</html>
