@@ -171,10 +171,10 @@
     '<section class="hero"><div class="hero-inner">' +
       '<p class="eyebrow">Autonomous AI companies</p>' +
       '<h1>Type one sentence.<br><span class="grad-text">Wake up to a company.</span></h1>' +
-      '<p class="subhead">Describe the business you wish existed. DreamCorp\u2019s AI workforce designs it, builds it, and runs it \u2014 while you get on with your day.</p>' +
+      '<p class="subhead">Tell us the company of your dreams. DreamCorp\u2019s AI workforce designs it, builds it, and runs it \u2014 while you get on with your day.</p>' +
       '<form class="idea-form" id="hero-form">' +
-        '<label class="visually-hidden" for="hero-idea">Describe the business you wish existed</label>' +
-        '<input id="hero-idea" type="text" placeholder="Describe the business you wish existed\u2026" autocomplete="off">' +
+        '<label class="visually-hidden" for="hero-idea">Tell us the company of your dreams</label>' +
+        '<input id="hero-idea" type="text" placeholder="Tell us the company of your dreams\u2026" autocomplete="off">' +
         '<button class="btn btn-primary" type="submit">Start building</button>' +
       '</form>' +
       '<p class="microcopy">Free to start \u00b7 no credit card \u00b7 demo runs entirely in your browser</p>' +
